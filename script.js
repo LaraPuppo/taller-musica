@@ -1,3 +1,7 @@
+var map = d3.geomap()
+    .geofile('/d3-geomap/topojson/world/countries.json')
+    .draw(d3.select('#map'));
+
 // async function getUser(place) {
 //     const api_url = `https://timezone.abstractapi.com/v1/current_time/?api_key=YOUR_API_KEY&location=${place}`
     
